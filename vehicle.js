@@ -89,3 +89,15 @@ class Vehicle {
 module.exports = {
     Vehicle
 }
+class Car extends Vehicle{
+    constructor(maximumPassengers, passenger, numberOfWheels,maximumSpeed, fuel, scheduleService){
+        super()
+        this.maximumPassengers = maximumPassengers
+        this.passenger = passenger
+        this.numberOfWheels = numberOfWheels
+        this.maximumSpeed = maximumSpeed
+        this.fuel = fuel
+        this.scheduleService = scheduleService
+
+    }
+}
